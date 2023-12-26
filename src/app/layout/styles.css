@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: whitesmoke;
+}
+
+.ui.fixed.menu {
+  background-color: black;
+}
+
+.ui.main.container {
+  margin-top: 2em;
+  width: 70% !important;
+}
+
+.dark-mode i.orange.icon {
+  color: #db2828;
+}
+
+.dark-mode .ui.items > .item > .content a:not(.ui) {
+  color: whitesmoke;
+}
+
+.dark-mode i.icon.calendar.alternate.outline:before {
+  color: purple;
+}
+
+.dark-mode .ui.feed > .event > .content .summary {
+  background-color: whitesmoke;
+}
+
+.ui.segment[class*="bottom attached"]:last-child {
+  background-color: whitesmoke;
+}
+
+.dark-mode .ui.dropdown {
+  color: whitesmoke;
+}
+
+i.icon.map.marker.alternate:before {
+  color: #db2828;
+}
+
+/*adding dark mode to all segments  */
+.dark-mode {
+  background-color: black;
+}
+
+.dark-mode .ui.items > .item > .content > .header {
+  color: whitesmoke;
+}
+
+.dark-mode .ui.form .field .ui.input input,
+.dark-mode .ui.form .fields .field .ui.input input {
+  /* background-color: black; */
+  border-color: whitesmoke;
+  color: whitesmoke;
+}
+
+.dark-mode .ui.vertical.menu .item:hover {
+  background-color: whitesmoke;
+  color: coral;
+}
+
+.dark-mode .ui.vertical.menu .item {
+  background-color: black;
+  color: whitesmoke;
+}
+.dark-mode .ui.vertical.menu .active.item {
+  color: coral;
+}
+
+.dark-mode .ui.form textarea {
+  background-color: whitesmoke;
+}
+
+.dark-mode .ui.segment.attendee {
+  border-color: whitesmoke !important;
+}
+
+.dark-mode .ui.items > .item > .content > .description {
+  color: whitesmoke;
+}
+
+.dark-mode .ui.comments,
+.dark-mode .comment,
+.dark-mode .author,
+.dark-mode .metadata,
+.dark-mode .actions a {
+  color: whitesmoke !important;
+}
+
+.dark-mode .ui.segment,
+.dark-mode .ui.segments .segment,
+.dark-mode {
+  background-color: black;
+  color: whitesmoke;
+  border-color: rgba(245, 245, 245, 0.205);
+}
+/* .dark-mode .ui.segments {
+  background-color: whitesmoke;
+} */
+.dark-mode .homePage h1.ui.header {
+  color: whitesmoke;
+}
+
+.ui.huge.button {
+  background-color: black;
+}
+
+.ui.inverted.menu .item:before,
+.ui.inverted.menu .item:before {
+  all: unset !important;
+}
+
+.ui.menu .menu {
+  border: none;
+}
+
+.ui.menu .ui.dropdown .menu .active.item {
+  background-color: gainsboro !important;
+  color: orangered !important;
+}
+
+.title {
+  padding: 0;
+  margin: 0;
+}
+
+.homePage {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.homePage h1.ui.header {
+  font-size: 4em;
+}
+
+i.large.icon,
+i.large.icons {
+  vertical-align: inherit;
+}
+
+.ui.dropdown .menu > .header {
+  color: coral;
+  font-weight: 700;
+  font-size: 1em;
+  font-family: "Poppins";
+}
+
+.carousel .slide img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-height: 70vh;
+  margin: 0 auto;
+}
+
+.carousel .slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel .slide img.vertical {
+  max-width: 100%;
+  max-height: 100vh;
+  height: auto;
+  width: auto;
+  margin: 0 auto;
+  transform: scale(1.2);
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 20px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+}
+
+.carousel-arrow-prev {
+  left: 10px;
+}
+
+.carousel-arrow-next {
+  right: 10px;
+}
+
+.carousel-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.ui.comments .comment .metadata {
+  display: block;
+}
+
+.ui.inverted.button {
+  box-shadow: none !important;
+}
+
+.ui.segments {
+  border: 0px 0px transparent;
+}
+
+.dark-mode .ui.segments {
+  border: 0px 0px transparent;
+  box-shadow: 0 0 5px 0 rgba(255, 253, 253, 0.377) !important;
+}
+
+.ui.basic.red.label {
+  font-weight: 400;
+}
+
+.react-calendar {
+  border: none;
+  box-shadow: 0 0 2px 1px rgba(255, 127, 80, 0.485);
+}
+
+.react-calendar__tile--now {
+  background-color: orangered;
+}
+
+.react-calendar__tile--active {
+  background-color: coral;
+}
+
+.ui.button {
+  background-color: #db2828;
+  color: whitesmoke;
+}
+.ui.button:hover {
+  background-color: #db2828;
+  color: whitesmoke;
+}
+
+.dark-mode .ui.divider {
+  color: whitesmoke;
+}
+
+.dark-mode .ui.statistics .statistic > .label {
+  color: whitesmoke !important;
+}
+
+.ui.basic.circular.button.eye-button {
+  box-shadow: none;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  padding: 0;
+  margin: 0;
+  transform: translateY(-50%);
+}
+
+a {
+  color: black;
+}
+.dark-mode a {
+  color: whitesmoke;
+}
+
+.react-datepicker {
+  display: flex !important;
+}
+
+.react-datepicker__day--selected {
+  background-color: coral !important;
+}
+
+.react-datepicker__time-container
+  .react-datepicker__time
+  .react-datepicker__time-box
+  ul.react-datepicker__time-list
+  li.react-datepicker__time-list-item--selected {
+  background-color: coral !important;
+}
+
+.react-datepicker__day--keyboard-selected,
+.react-datepicker__month-text--keyboard-selected,
+.react-datepicker__quarter-text--keyboard-selected,
+.react-datepicker__year-text--keyboard-selected {
+  background-color: red !important;
+  color: whitesmoke !important;
+}
+
+.ui.basic.red.label {
+  display: table;
+}
+
+.dark-mode .icon {
+  color: #f2711c;
+}
+
+.dark-mode abbr[title] {
+  color: red;
+}
+
+.ui.icon.input>input{
+  margin-left: 15px;
+  padding-right: 120px !important;
+}
+
+.current-user {
+  text-align: right;
+  padding-left: 30px; /* Adjust the padding as needed */
+}
+
+.other-user {
+  text-align: left;
+  padding-right: 30px; /* Adjust the padding as needed */
+}
